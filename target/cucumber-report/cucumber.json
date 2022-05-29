@@ -1,0 +1,1067 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "I am on computer page of nopcommerce",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 863218999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on computer tab",
+            "match": {
+              "location": "ComputerPageTest.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmOnComputerPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4256200000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "I should able to navigate to computer page successfully",
+        "description": "",
+        "id": "computer-page-functionality;i-should-able-to-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1021036299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmOnComputerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am successfully navigate to computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmSuccessfullyNavigateToComputerPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65550401,
+              "error_message": "org.junit.ComparisonFailure: computer text is not match expected:\u003cComputer[]\u003e but was:\u003cComputer[s]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.nopcommerce.demo.cucumber.steps.ComputerPageTest.iCanSeeTheComputerMessage(ComputerPageTest.java:28)\r\n\tat ✽.And I can see the computer message \"Computer\"(computer.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I can see the computer message \"Computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computer",
+                  "offset": 32
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheComputerMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@sanity"
+          },
+          {
+            "line": 9,
+            "name": "@smoke"
+          },
+          {
+            "line": 9,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "I am on computer page of nopcommerce",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 574007100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on computer tab",
+            "match": {
+              "location": "ComputerPageTest.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmOnComputerPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1958277600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "I should able to navigate to desktops page successfully",
+        "description": "",
+        "id": "computer-page-functionality;i-should-able-to-navigate-to-desktops-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 694767200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 521350800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on desktops link",
+            "match": {
+              "location": "ComputerPageTest.iClickOnDesktopsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am successfully navigate to desktop page",
+            "match": {
+              "location": "ComputerPageTest.iAmSuccessfullyNavigateToDesktopPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41200201,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can see the desktops message \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 32
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheDesktopsMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@smoke"
+          },
+          {
+            "line": 15,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "I am on computer page of nopcommerce",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 590874600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on computer tab",
+            "match": {
+              "location": "ComputerPageTest.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmOnComputerPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1910651799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "I should able to select my own build computer",
+        "description": "",
+        "id": "computer-page-functionality;i-should-able-to-select-my-own-build-computer;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 677070900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 519081201,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on desktops link",
+            "match": {
+              "location": "ComputerPageTest.iClickOnDesktopsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 790484001,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select desktop product \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 26
+                }
+              ],
+              "location": "ComputerPageTest.iSelectDesktopProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39608300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can see the build your own computer message \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 47
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheBuildYourOwnComputerMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128165300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select processor \"2.2 GHz Intel Pentium Dual-Core E2200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.2 GHz Intel Pentium Dual-Core E2200",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerPageTest.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97132000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select ram \"2 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 GB",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerPageTest.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81745401,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select hdd \"320 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "320 GB",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerPageTest.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85202400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select os \"Vista Home [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Home [+$50.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerPageTest.iSelectOs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77683600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select software \"Microsoft Office [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Microsoft Office [+$50.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerPageTest.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55955700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "ComputerPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73301,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am successfully select my own build computer",
+            "match": {
+              "location": "ComputerPageTest.iAmSuccessfullySelectMyOwnBuildComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 352455600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I can see the addtocart message \"The product has been added to your shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 33
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheAddtocartMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@rgs"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "I am on computer page of nopcommerce",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 633202600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on computer tab",
+            "match": {
+              "location": "ComputerPageTest.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmOnComputerPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2582721999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "I should able to select my own build computer",
+        "description": "",
+        "id": "computer-page-functionality;i-should-able-to-select-my-own-build-computer;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 686005500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 519311799,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on desktops link",
+            "match": {
+              "location": "ComputerPageTest.iClickOnDesktopsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797048999,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select desktop product \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 26
+                }
+              ],
+              "location": "ComputerPageTest.iSelectDesktopProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39553400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can see the build your own computer message \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 47
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheBuildYourOwnComputerMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68374300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select processor \"2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerPageTest.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87186000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select ram \"4GB [+$20.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4GB [+$20.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerPageTest.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83025400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select hdd \"400 GB [+$100.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400 GB [+$100.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerPageTest.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70979001,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select os \"Vista Premium [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Premium [+$60.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerPageTest.iSelectOs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73750500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select software \"Acrobat Reader [+$10.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Acrobat Reader [+$10.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerPageTest.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49271099,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "ComputerPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9899,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am successfully select my own build computer",
+            "match": {
+              "location": "ComputerPageTest.iAmSuccessfullySelectMyOwnBuildComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 304210601,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I can see the addtocart message \"The product has been added to your shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 33
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheAddtocartMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@rgs"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "I am on computer page of nopcommerce",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 602732200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on computer tab",
+            "match": {
+              "location": "ComputerPageTest.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on computer page",
+            "match": {
+              "location": "ComputerPageTest.iAmOnComputerPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2618839300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "I should able to select my own build computer",
+        "description": "",
+        "id": "computer-page-functionality;i-should-able-to-select-my-own-build-computer;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 670378601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 541840901,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on desktops link",
+            "match": {
+              "location": "ComputerPageTest.iClickOnDesktopsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 830857100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I select desktop product \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 26
+                }
+              ],
+              "location": "ComputerPageTest.iSelectDesktopProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32016301,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can see the build your own computer message \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 47
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheBuildYourOwnComputerMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40751099,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select processor \"2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerPageTest.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71468400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select ram \"8GB [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8GB [+$60.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerPageTest.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68799899,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select hdd \"320 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "320 GB",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerPageTest.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72049499,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select os \"Vista Home [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Home [+$50.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerPageTest.iSelectOs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110278700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select software \"Total Commander [+$5.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Total Commander [+$5.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerPageTest.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57035200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "ComputerPageTest.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am successfully select my own build computer",
+            "match": {
+              "location": "ComputerPageTest.iAmSuccessfullySelectMyOwnBuildComputer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279543399,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I can see the addtocart message \"The product has been added to your shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 33
+                }
+              ],
+              "location": "ComputerPageTest.iCanSeeTheAddtocartMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@rgs"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page Functionality",
+    "description": "As user, I would like to shopping on Computer category",
+    "id": "computer-page-functionality",
+    "keyword": "Feature",
+    "uri": "computer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@rgs"
+      }
+    ]
+  }
+]
